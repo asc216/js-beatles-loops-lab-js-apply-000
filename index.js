@@ -1,13 +1,13 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
   var length1 = musicians.length;
-  var musiciansAndInstruments=[];
+  var mAndI=[];
   var i=0;
   for(i=0;i<=length1;i++){
     var string1 = musicians[i]+" plays "+instruments[i];
-    musiciansAndInstruments.push(string1);
+    mAndI.push(string1);
   }
-  return musiciansAndInstruments;
+  return mAndI;
 }
 
 function johnLennonFacts(johnFacts){
