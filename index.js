@@ -12,8 +12,8 @@ function theBeatlesPlay(musicians, instruments){
 
 function johnLennonFacts(johnFacts){
   var length1 = johnFacts.length;
-  var i=0;
-  for(i=0;i<=4;i++){
+  var i;
+  for(i=0;i<=length1;i++){
     johnFacts[i]=johnFacts[i]+"!!!";
   }
   return johnFacts;
